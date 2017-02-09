@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:weightSum="10"
+    android:background="@color/backgroundColor"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -36,7 +37,7 @@
             android:textSize="30sp"
             android:gravity="center"
             android:visibility="gone"
-            android:textColor="#000000" />
+            android:textColor="@color/textColor" />
 
     </LinearLayout>
     
