@@ -7,4 +7,10 @@
     <color name="textColor">#000000</color>
     <color name="backgroundColor">#F8F8F7</color>
     <color name="buttonColor">#F4F3F2</color>
+
+    <color name="justone">#EDECEA</color>
+
+    <color name="allbackground">#ffffff</color>
+
+    <color name="favourable">#ff9900</color>
 </resources>

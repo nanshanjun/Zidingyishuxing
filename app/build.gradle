@@ -1,7 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+        useLibrary'org.apache.http.legacy'
+        compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
         applicationId "com.bwei.zidingyishuxing"
@@ -20,10 +21,15 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile files('libs/imageLoader.jar')
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.google.code.gson:gson-parent:2.8.0'
+    compile files('libs/xUtils-2.6.14.jar')
 }

@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="预约"
-            android:textSize="30sp"
+            android:textSize="18sp"
             android:gravity="center"
             android:visibility="gone"
             android:textColor="@color/textColor" />
